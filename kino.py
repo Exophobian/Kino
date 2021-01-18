@@ -16,14 +16,14 @@ bytes = random._urandom(1024)
 time.sleep(1)
 os.system("clear")
 
-print("\u001b[36m		┈┈┈╲┈┈┈┈╱") #introduction
-print("		┈┈┈╱▔▔▔▔╲")
-print("		┈┈┃┈▇┈┈▇┈┃")
-print("		╭╮┣━━━━━━┫╭╮")
-print("		┃┃┃┈┈┈┈┈┈┃┃┃")
-print("		╰╯┃┈┈┈┈┈┈┃╰╯")
-print("		┈┈╰┓┏━━┓┏╯")
-print("		┈┈┈╰╯┈┈╰╯ \u001b[37mKino Developed By Exo")
+print("\033[0;36m		┈┈┈╲┈┈┈┈╱") #introduction
+print("\033[1;37m		┈┈┈╱▔▔▔▔╲")
+print("\033[0;36m		┈┈┃┈▇┈┈▇┈┃")
+print("\033[1;37m		╭╮┣━━━━━━┫╭╮")
+print("\033[0;36m		┃┃┃┈┈┈┈┈┈┃┃┃")
+print("\033[1;37m		╰╯┃┈┈┈┈┈┈┃╰╯")
+print("\033[0;36m		┈┈╰┓┏━━┓┏╯")
+print("\033[1;37m		┈┈┈╰╯┈┈╰╯ \u001b[37mKino Developed By Exo")
 print("")
 name = input("Hello what is your name? \nInput Name Here:\u001b[36m ")
 print("Loading...")
@@ -34,33 +34,24 @@ os.system("clear")
 while True:
 	os.system("clear")
 	print("\u001b[36m")
-	print("			██╗  ██╗██╗███╗   ██╗ ██████╗")
+	print("\033[1;37m			 ██╗  ██╗██╗███╗   ██╗ ██████╗")
 	time.sleep(1)
-	print("			██║ ██╔╝██║████╗  ██║██╔═══██╗")
-	print("			█████╔╝ ██║██╔██╗ ██║██║   ██║")
+	print("\u001b[36m			 ██║ ██╔╝██║████╗  ██║██╔═══██╗")
+	print("\033[1;37m			 █████╔╝ ██║██╔██╗ ██║██║   ██║")
 	time.sleep(1)
-	print("			██╔═██╗ ██║██║╚██╗██║██║   ██║")
-	print("			██║  ██╗██║██║ ╚████║╚██████╔╝")
+	print("\u001b[36m			 ██╔═██╗ ██║██║╚██╗██║██║   ██║")
+	print("\033[1;37m			 ██║  ██╗██║██║ ╚████║╚██████╔╝")
 	time.sleep(1)
-	print("			╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝")
-	print('\u001b[37m		   	  Hello',name,'welcome to Kino') # main hub
-	print("		 	Best terminal-based multitool")
-	print("")
-	print("""		    ╔═══════════════════╔══════════════════╗
-		    ║ \u001b[36m   Portscan\u001b[37m       ║\u001b[36m    Ping\u001b[37m          ║
-		    ║═══════════════════║══════════════════║
-		    ║ \u001b[36m   Credits\u001b[37m        ║\u001b[36m    DoS\u001b[37m           ║
-		    ║═══════════════════║══════════════════║
-		    ║ \u001b[36m   Instagram\u001b[37m 	║\u001b[36m    Lookup\u001b[37m        ║
-		    ║═══════════════════║══════════════════║
-		    ║ \u001b[36m   Methods\u001b[37m        ║\u001b[36m    API Attack\u001b[37m	   ║
-		    ╚═══════════════════╚══════════════════╝""")
+	print("\u001b[36m			 ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝")
+	print("\033[1;37m		  ╔══════════════════════════════════════════╗")
+	print("\033[1;37m		  ║-------- Hello\u001b[36m",name,"\033[1;37mwelcome to Kino -------║")
+	print("\033[1;37m		  ║--------- Type 'help' for options --------║")
+	print("\033[1;37m		  ╚══════════════════════════════════════════╝")
+	print("""			    ╔════════════════════╗
+			    ║---\u001b[36m @exo.phobian\033[1;37m ---║
+			    ╚════════════════════╝""")
 	print("")
 	option = input("root@kino:~# ")
-	
-	if option == "":
-		print("please choose a valid option!")
-		time.sleep(2)
 
 	if option == "Portscan": #portscanner
 			os.system("clear")
@@ -137,18 +128,19 @@ while True:
 
 		
 		
-	if option == "Methods":
-		os.system("clear")
+	if option == "help":
 		print("\u001b[36m")
-		print("	███╗   ███╗███████╗████████╗██╗  ██╗ ██████╗ ██████╗ ███████╗")
-		print("	████╗ ████║██╔════╝╚══██╔══╝██║  ██║██╔═══██╗██╔══██╗██╔════╝")
-		print("	██╔████╔██║█████╗     ██║   ███████║██║   ██║██║  ██║███████╗")
-		print("	██║╚██╔╝██║██╔══╝     ██║   ██╔══██║██║   ██║██║  ██║╚════██║")
-		print("	██║ ╚═╝ ██║███████╗   ██║   ██║  ██║╚██████╔╝██████╔╝███████║")
-		print("	╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝")
+		print("╔═══════════════════╔══════════════════╗")
+		print("║    Portscan       ║    Ping          ║")
+		print("║═══════════════════║══════════════════║")
+		print("║    Credits        ║    DoS           ║")
+		print("║═══════════════════║══════════════════║")
+		print("║    Instagram 	    ║    Lookup        ║")
+		print("║═══════════════════║══════════════════║")
+		print("║    Methods        ║    API Attack    ║")
+		print("╚═══════════════════╚══════════════════╝")
 		print("\u001b[37m")
-		print("		[UDP] [TCP] [VSE] [ACK] [CNC] [XMAS] [DNS]")
-		next = input("Press enter to continue")
+		next = input("Press enter to go back")
 	if option == "API Attack":
 		os.system("clear")
 		print("\u001b[36m")
