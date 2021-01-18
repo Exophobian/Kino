@@ -169,5 +169,6 @@ while True:
 	if option == "exit":
 		print("Goodbye")
 		time.sleep(2)
+		exit()
 
 		
