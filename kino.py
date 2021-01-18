@@ -131,14 +131,14 @@ while True:
 	if option == "help":
 		print("\u001b[36m")
 		print("╔═══════════════════╔══════════════════╗")
-		print("║    Portscan       ║    Ping          ║")
-		print("║═══════════════════║══════════════════║")
-		print("║    Credits        ║    DoS           ║")
-		print("║═══════════════════║══════════════════║")
-		print("║    Instagram 	    ║    Lookup        ║")
-		print("║═══════════════════║══════════════════║")
-		print("║    Methods        ║    API Attack    ║")
-		print("╚═══════════════════╚══════════════════╝")
+		print("\u001b[37m║    Portscan       ║    Ping          ║")
+		print("\u001b[36m║═══════════════════║══════════════════║")
+		print("\u001b[37m║    Credits        ║    DoS           ║")
+		print("\u001b[36m║═══════════════════║══════════════════║")
+		print("\u001b[37m║    Instagram 	    ║    Lookup        ║")
+		print("\u001b[36m║═══════════════════║══════════════════║")
+		print("\u001b[37m║    Methods        ║    API Attack    ║")
+		print("\u001b[36m╚═══════════════════╚══════════════════╝")
 		print("\u001b[37m")
 		next = input("Press enter to go back")
 	if option == "API Attack":
@@ -158,6 +158,7 @@ while True:
 		tme = input("Time: ") # unfinished
 		method = input("Method: ")
 		
+		response = request.get("https://pornhub.com/").text
 		print("attack sending...")
 		next = input("Press enter to continue")
 		
@@ -169,6 +170,7 @@ while True:
 	if option == "exit":
 		print("Goodbye")
 		time.sleep(2)
-		exit()
+		
+		
 
 		
