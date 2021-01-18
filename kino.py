@@ -160,5 +160,14 @@ while True:
 		
 		print("attack sending...")
 		next = input("Press enter to continue")
+		
+	if option == "Methods":
+		os.system("clear")
+		print("\u001b[36m		[UDP] [TCP] [VSE] [ACK] [CNC] [XMAS] [DNS]")
+		next = input("Press enter to go back")
+		
+	if option == "exit":
+		print("Goodbye")
+		time.sleep(2)
 
 		
